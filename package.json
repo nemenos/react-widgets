@@ -140,5 +140,6 @@
     "transform": [
       "loose-envify"
     ]
-  }
+  },
+  "registry": "npm"
 }
