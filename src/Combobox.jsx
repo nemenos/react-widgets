@@ -361,6 +361,9 @@ var ComboBox = React.createClass({
       e.preventDefault();
       select(this.state.focusedItem, true)
     }
+    else if ( key === 'Tab' && isOpen) {
+      select(this.state.focusedItem, true)
+    }
     else if (key === 'ArrowDown') {
       if ( alt )
         this.open()
