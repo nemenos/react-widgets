@@ -242,6 +242,8 @@ class Combobox extends React.Component {
     }
     else if (key === 'Tab') {
       this.refs.input.accept()
+      if (open)
+        select(this.state.focusedItem)
     }
     else if (key === 'ArrowDown') {
       e.preventDefault()

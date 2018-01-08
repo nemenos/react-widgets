@@ -1,6 +1,6 @@
 {
   "name": "react-widgets",
-  "version": "4.1.1",
+  "version": "4.9.1",
   "description": "An à la carte set of polished, extensible, and accessible inputs built for React",
   "main": "lib/index.js",
   "author": {
@@ -52,11 +52,10 @@
     "prepublish": "npm run build",
     "start": "start-storybook -p 9001"
   },
-  "homepage": "http://jquense.github.io/react-widgets/docs/",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jquense/react-widgets"
+    "url": "https://github.com/nemenos/react-widgets"
   },
   "peerDependencies": {
     "react": ">=0.14.0",
