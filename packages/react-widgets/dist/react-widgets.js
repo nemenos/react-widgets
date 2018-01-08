@@ -9839,6 +9839,7 @@ var Combobox = (0, _withRightToLeft2.default)(_class = (_class2 = (_temp = _clas
         select(_this4.state.focusedItem);
       } else if (key === 'Tab') {
         _this4.refs.input.accept();
+        if (open) select(_this4.state.focusedItem);
       } else if (key === 'ArrowDown') {
         e.preventDefault();
         if (altKey) return _this4.open();
